@@ -20,7 +20,7 @@ The training was done on Google Colab. The training script (train.ipynb) is prov
 YOLOv8's default training method automatically preprocesses the training set and applies data augmentation techniques like random scaling and mosaic. The model is trained for 30 epochs, reaching an accuracy of 94.7% on the testing set. The trained weights with the best accuracy are automatically saved as best.pt, which can be downloaded or evaluated.
 
 ## Testing and Validation
-A test script (test_model.py) is also provided in the submitted files. The script can receive a testing folder as input, apply the trained model, and save the classification results to a .txt file in the designated path.
+A test script (test_model.py) is also provided in the files. The script can receive a testing folder as input, apply the trained model, and save the classification results to a .txt file in the designated path.
 
 The testing script can also automatically check the overall accuracy of the testing data if the testing folder contains folders with class names (e.g., nike, adidas, converse).
 
